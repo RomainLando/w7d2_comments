@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(180deg, #FE0000 16.66%,
+    #FD8C00 16.66%, 33.32%,
+    #FFE500 33.32%, 49.98%,
+    #119F0B 49.98%, 66.64%,
+    #0644B3 66.64%, 83.3%,
+    #C22EDC 83.3%);
+}
+
+h2 {
+    color: pink;
+    font-size: 6rem;
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul > li {
+    background-color: aliceblue;
+    text-align: center;
+    margin: 1rem;
+    border: solid rgb(21, 192, 214) 2px;
+    width: 70%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    height: 3rem;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 2%;
+}
